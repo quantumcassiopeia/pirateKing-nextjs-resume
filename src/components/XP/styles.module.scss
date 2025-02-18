@@ -1,0 +1,21 @@
+.jobHeader {
+  display: grid;
+  grid-template-columns: 1fr 1fr auto;
+  padding: 0.5rem;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-between;
+
+  .job {
+    font-weight: bold;
+  }
+
+  .company {
+    text-decoration: underline;
+    font-style: italic;
+  }
+}
+
+.description {
+  padding: 0.5rem 0 0.5rem 0;
+}

@@ -1,0 +1,20 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 1rem;
+
+  max-width: 900px;
+  color: #ededed;
+  background: #393939;
+
+  justify-self: center;
+
+  border: solid 1px white;
+}
+
+@media print {
+  .page {
+    border: none;
+  }
+}
