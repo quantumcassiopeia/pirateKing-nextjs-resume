@@ -22,14 +22,14 @@ const contacts = [
     icon: "./icons/E-mail.svg",
   },
   {
-    label: "(91) 98410-7575",
+    label: "+55 91 98410-7575",
     href: "https://wa.me/5591984107575",
     icon: "./icons/WhatsApp.svg",
   },
 ];
 
 const hardSkills = [
-  "5 anos de experiência",
+  "5 years of experience",
   "React",
   "Next.js",
   "Node.js",
@@ -40,7 +40,7 @@ const hardSkills = [
   "Sass",
   "CSS",
   "HTML",
-  "Banco de Dados",
+  "Database",
   "SQL",
   "Java",
   "C#",
@@ -49,95 +49,95 @@ const hardSkills = [
   "Python",
   "Kotlin",
   "Android Jetpack Compose",
-  "Redes Locais (LAN)",
+  "LAN",
 ];
 
 const softSkills = [
-  "Trabalho em equipe",
-  "Comunicação",
-  "Solução de problemas",
-  "Proatividade",
-  "Pensamento crítico",
-  "Adaptabilidade",
-  "Liderança",
-  "Resiliência",
-  "Inteligência emocional",
-  "Responsabilidade",
-  "Empatia",
-  "Criatividade",
-  "Gestão de tempo",
+  "Teamwork",
+  "Communication",
+  "Problem-solving",
+  "Proactivity",
+  "Critical thinking",
+  "Adaptability",
+  "Leadership",
+  "Resilience",
+  "Emotional intelligence",
+  "Responsibility",
+  "Empathy",
+  "Creativity",
+  "Time management",
 ];
 
 const xp = [
   {
-    job: "Desenvolvedor FullStack",
+    job: "FullStack Developer",
     company: "Rede Autoestima-se",
-    location: "Remoto (Brasil)",
-    date: "12/2023 - atualmente",
+    location: "Remote (Brazil)",
+    date: "Dec 2023 - Present",
     description:
-      "Desenvolvi e implementei o site da rede Autoestima-se, criando uma plataforma funcional e acessível para os usuários. Atualmente, sou responsável pela manutenção contínua do site, realizando atualizações, correções e melhorias de performance para garantir uma experiência otimizada para os visitantes.",
+      "Developed and implemented the Autoestima-se network website, creating a functional and accessible platform for users. Currently responsible for the site's ongoing maintenance, performing updates, fixes, and performance improvements to ensure an optimized user experience.",
   },
   {
-    job: "Extensionista",
+    job: "Extensionist",
     company: "Escola Barão Triunfo",
     location: "Belém/PA",
-    date: "03/2023 – 07/2023",
+    date: "Mar 2023 – Jul 2023",
     description:
-      "Participei de um projeto voluntário com o objetivo de ensinar linguagens de programação a estudantes de escolas públicas. Além disso, prestei suporte em TI, abordando temas de engenharia da computação e promovendo práticas sustentáveis e de consciência social no contexto educacional.",
+      "Participated in a volunteer project aimed at teaching programming languages to public school students. Additionally, provided IT support, addressing computer engineering topics and promoting sustainable practices and social awareness in the educational context.",
   },
   {
-    job: "Estagiário",
+    job: "Intern",
     company: "Receita Federal do Brasil",
     location: "Belém/PA",
     date: "2017 - 2018",
     description:
-      "Desenvolvi e mantive páginas em HTML/CSS/JavaScript, além de fornecer suporte a servidores de banco de dados. Também executei lançamentos contábeis, atendi ao público e ofereci suporte técnico a contribuintes, garantindo a resolução eficaz de suas questões fiscais e tributárias.",
+      "Developed and maintained HTML/CSS/JavaScript pages, as well as provided support for database servers. Also performed accounting entries, assisted the public, and offered technical support to taxpayers, ensuring the effective resolution of their tax and fiscal issues.",
   },
   {
-    job: "Estagiário",
+    job: "Intern",
     company: "Ministério Público do Pará",
     location: "Belém/PA",
     date: "2016 - 2017",
     description:
-      "Atuei no lançamento de guias contábeis e no gerenciamento de planilhas Excel. Também fui responsável pela escrituração de livros contábeis, suporte em sistemas de banco de dados e servidores, além de atuar na manutenção de redes locais e na aplicação de HTML/CSS para o desenvolvimento de interfaces.",
+      "Worked on accounting guide entries and Excel spreadsheet management. Also responsible for bookkeeping, database and server system support, local network maintenance, and the application of HTML/CSS for interface development.",
   },
 ];
 
 const academic = [
   {
-    course: "Graduando",
+    course: "Undergraduate",
     institution: "Faculdade Estácio de Belém",
-    location: "Remoto (Brasil)",
+    location: "Remote (Brazil)",
     date: "03/2023 – 12/2026",
   },
   {
     course: "Python",
     institution: "Cisco Networking Academy",
-    location: "Remoto (Brasil)",
+    location: "Remote (Brazil)",
     date: "2023",
   },
   {
     course: "Endpoint Security",
     institution: "Cisco Networking Academy",
-    location: "Remoto (Brasil)",
+    location: "Remote (Brazil)",
     date: "2023",
   },
   {
     course: "Linux Essentials",
     institution: "Network Development Group",
-    location: "Remoto (Brasil)",
+    location: "Remote (Brazil)",
     date: "2024",
   },
   {
-    course: "Análise de Dados",
+    course: "Data Analysis",
     institution: "Faculdade Estácio de Belém",
-    location: "Remoto (Brasil)",
+    location: "Remote (Brazil)",
     date: "2024",
   },
   {
-    course: "Nuvem/AZW",
+    course: "Cloud/AZW",
     institution: "Ka Solution",
-    location: "Remoto (Brasil)",
+    location: "Remote (Brazil)",
     date: "2024",
   },
 ];

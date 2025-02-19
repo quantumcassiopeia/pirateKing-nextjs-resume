@@ -14,7 +14,7 @@ type EducationProps = {
 const Education: React.FC<EducationProps> = ({ education }) => {
   return (
     <div>
-      <h3 className="sectionTitle">Formação Acadêmica</h3>
+      <h3 className="sectionTitle">Education</h3>
       {education.map((academics, index) => (
         <div className={styles.educationWrapper} key={index}>
           <p>{academics.course}</p>
