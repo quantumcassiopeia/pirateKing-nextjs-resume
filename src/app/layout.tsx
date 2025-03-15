@@ -9,6 +9,10 @@ const duruSans = Duru_Sans({
 export const metadata: Metadata = {
   title: "Resume",
   description: "Create by Quantum",
+
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({
