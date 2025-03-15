@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   description: "Create by Quantum",
 
   icons: {
-    icon: "/favicon.ico",
+    icon: "./favicon.ico",
   },
 };
 
