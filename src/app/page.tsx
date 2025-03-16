@@ -18,7 +18,7 @@ const contacts = [
   },
   {
     label: "quantumpeia.dev@gmail.com",
-    href: "malito:quantumpeia.dev@gmail.com",
+    href: "mailto:quantumpeia.dev@gmail.com",
     icon: "./icons/E-mail.svg",
   },
   {
