@@ -8,13 +8,14 @@ type Academic = {
   date: string;
 };
 type EducationProps = {
+  title: string;
   education: Academic[];
 };
 
-const Education: React.FC<EducationProps> = ({ education }) => {
+const Education: React.FC<EducationProps> = ({ title, education }) => {
   return (
     <div>
-      <h3 className="sectionTitle">Education</h3>
+      <h3 className="sectionTitle">{title}</h3>
       {education.map((academics, index) => (
         <div className={styles.educationWrapper} key={index}>
           <p>{academics.course}</p>

@@ -8,13 +8,14 @@ type Job = {
 };
 
 type XPProps = {
+  title: string;
   jobs: Job[];
 };
 
-const XP: React.FC<XPProps> = ({ jobs }) => {
+const XP: React.FC<XPProps> = ({ title, jobs }) => {
   return (
     <div>
-      <h2 className="sectionTitle">Experience</h2>
+      <h2 className="sectionTitle">{title}</h2>
       {jobs.map((job, index) => (
         <div className={styles.job} key={index}>
           <div className={styles.jobHeader}>
