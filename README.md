@@ -4,6 +4,8 @@
 
 This project is a resume page inspired by the Pirate King, built with Next.js, TypeScript, and Sass.
 
+[Resume Preview](https://quantumcassiopeia.github.io/pirateKing-nextjs-resume/)
+
 ## 🚀 Technologies Used
 
 - [Next.js](https://nextjs.org/) - React framework for SSR and SSG
