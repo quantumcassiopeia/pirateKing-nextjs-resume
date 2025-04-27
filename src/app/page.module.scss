@@ -13,8 +13,15 @@
   border: solid 1px white;
 }
 
+.toggleLang {
+  width: 75px;
+}
+
 @media print {
   .page {
     border: none;
+  }
+  .toggleLang {
+    display: none;
   }
 }

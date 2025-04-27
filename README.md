@@ -1,5 +1,7 @@
 # Pirate King Resume
 
+🚧 Project under development 🚧
+
 This project is a resume page inspired by the Pirate King, built with Next.js, TypeScript, and Sass.
 
 ## 🚀 Technologies Used
