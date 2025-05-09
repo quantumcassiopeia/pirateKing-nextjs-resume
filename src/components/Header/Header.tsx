@@ -26,7 +26,12 @@ const Header: React.FC<HeaderProps> = ({ title, contact }) => {
       <ul className={styles.contact}>
         {contact.map(({ label, href, icon }) => (
           <li key={label}>
-            <Link className={styles.contactItem} href={href}>
+            <Link
+              className={styles.contactItem}
+              href={href}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Image src={icon} alt={label} width={20} height={20} /> {label}
             </Link>
           </li>

@@ -5,6 +5,7 @@ const hardSkills = {
     "React",
     "Next.js",
     "Node.js",
+    "Django",
     "Redux",
     "TypeScript",
     "JavaScript",
