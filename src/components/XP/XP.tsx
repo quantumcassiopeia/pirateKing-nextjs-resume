@@ -3,6 +3,7 @@ import styles from "./styles.module.scss";
 type Job = {
   job: string;
   company: string;
+  location: string;
   date: string;
   description: string;
 };
@@ -21,6 +22,7 @@ const XP: React.FC<XPProps> = ({ title, jobs }) => {
           <div className={styles.jobHeader}>
             <h3>{job.job}</h3>
             <p className={styles.company}>{job.company}</p>
+            <p className={styles.location}>{job.location}</p>
             <p className={styles.date}>{job.date}</p>
           </div>
           <p className={styles.description}>• {job.description}</p>

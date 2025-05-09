@@ -1,7 +1,7 @@
 const hardSkills = {
   title: "Hard Skills",
   skills: [
-    "5 years of experience",
+    "9 years of experience",
     "React",
     "Next.js",
     "Node.js",
@@ -50,9 +50,17 @@ const xp = {
   title: "Professional Experience",
   jobs: [
     {
+      job: "Frontend Developer",
+      company: "Freelance",
+      location: "Remote",
+      date: "Since 2019",
+      description:
+        "Website and web application development, optimizing user experience.",
+    },
+    {
       job: "FullStack Developer",
       company: "Rede Autoestima-se",
-      location: "Remote (Brazil)",
+      location: "Remote",
       date: "Nov 2024 - Apr 2025",
       description:
         "Developed and implemented the Autoestima-se network website, creating a functional and accessible platform for users. Also responsible for the site's ongoing maintenance, performing updates, fixes, and performance improvements to ensure an optimized user experience.",

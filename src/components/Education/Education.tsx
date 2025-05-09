@@ -21,7 +21,7 @@ const Education: React.FC<EducationProps> = ({ title, education }) => {
           <p>{academics.course}</p>
           <p className={styles.institution}>{academics.institution}</p>
           <p className={styles.location}>{academics.location}</p>
-          <p>{academics.date}</p>
+          <p className={styles.date}>{academics.date}</p>
         </div>
       ))}
     </div>

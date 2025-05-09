@@ -1,7 +1,7 @@
 const hardSkills = {
   title: "Hard Skills",
   skills: [
-    "5 anos de experiência",
+    "9 anos de experiência",
     "React",
     "Next.js",
     "Node.js",
@@ -50,7 +50,15 @@ const xp = {
   title: "Experiência Profissional",
   jobs: [
     {
-      job: "Desenvolvedor Fullstack",
+      job: "Desenv. Frontend",
+      company: "Freelance",
+      location: "Remoto",
+      date: "Desde 2019",
+      description:
+        "Desenvolvimento de sites e aplicativos web, otimizando a experiência do usuário.",
+    },
+    {
+      job: "Desenv. Fullstack",
       company: "Rede Autoestima-se",
       location: "Remoto (Brasil)",
       date: "nov/2024 - abril/2025",
