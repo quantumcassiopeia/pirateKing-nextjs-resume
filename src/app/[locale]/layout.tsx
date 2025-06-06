@@ -5,6 +5,7 @@ import { routing } from "@/i18n/routing";
 import type { Metadata } from "next";
 import { Duru_Sans } from "next/font/google";
 import "./globals.scss";
+import Header from "@/layout/Header/Header";
 
 const duruSans = Duru_Sans({
   weight: "400",
@@ -33,6 +34,7 @@ export default async function RootLayout({
   return (
     <html lang={locale}>
       <NextIntlClientProvider>
+        <Header />
         <body className={duruSans.className}>{children}</body>
       </NextIntlClientProvider>
     </html>

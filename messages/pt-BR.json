@@ -1,4 +1,9 @@
 {
+  "header": {
+    "name": "Robert Souza",
+    "job": "Desenvolvedor Full-stack",
+    "city": "Rio de Janeiro, Brasil"
+  },
   "hardSkills": {
     "title": "Hard Skills",
     "skills": [
