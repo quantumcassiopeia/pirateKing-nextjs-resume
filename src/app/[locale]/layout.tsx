@@ -1,3 +1,7 @@
+import { NextIntlClientProvider, hasLocale } from "next-intl";
+import { notFound } from "next/navigation";
+import { routing } from "@/i18n/routing";
+
 import type { Metadata } from "next";
 import { Duru_Sans } from "next/font/google";
 import "./globals.scss";
@@ -15,14 +19,22 @@ export const metadata: Metadata = {
   },
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
+  params,
 }: Readonly<{
   children: React.ReactNode;
+  params: Promise<{ locale: string }>;
 }>) {
+  const { locale } = await params;
+  if (!hasLocale(routing.locales, locale)) {
+    notFound();
+  }
   return (
-    <html lang="en">
-      <body className={duruSans.className}>{children}</body>
+    <html lang={locale}>
+      <NextIntlClientProvider>
+        <body className={duruSans.className}>{children}</body>
+      </NextIntlClientProvider>
     </html>
   );
 }
