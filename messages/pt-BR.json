@@ -4,68 +4,70 @@
     "job": "Desenvolvedor Full-stack",
     "city": "Rio de Janeiro, Brasil"
   },
-  "hardSkills": {
-    "title": "Hard Skills",
-    "skills": [
-      "9 anos de experiência",
-      "React",
-      "Next.js",
-      "Node.js",
-      "Django",
-      "Redux",
-      "TypeScript",
-      "JavaScript",
-      "Git",
-      "Tailwind",
-      "Sass",
-      "CSS",
-      "HTML",
-      "Banco de Dados",
-      "SQL",
-      "Java",
-      "C#",
-      "C++",
-      "C",
-      "Python",
-      "Kotlin",
-      "Android Jetpack Compose",
-      "Redes Locais (LAN)"
-    ]
+  "skills": {
+    "hardSkills": {
+      "title": "Hard Skills",
+      "items": [
+        "9 anos de experiência",
+        "React",
+        "Next.js",
+        "Node.js",
+        "Django",
+        "Redux",
+        "TypeScript",
+        "JavaScript",
+        "Git",
+        "Tailwind",
+        "Sass",
+        "CSS",
+        "HTML",
+        "Banco de Dados",
+        "SQL",
+        "Java",
+        "C#",
+        "C++",
+        "C",
+        "Python",
+        "Kotlin",
+        "Android Jetpack Compose",
+        "Redes Locais (LAN)"
+      ]
+    },
+    "softSkills": {
+      "title": "Soft Skills",
+      "items": [
+        "Trabalho em equipe",
+        "Comunicação",
+        "Solução de problemas",
+        "Proatividade",
+        "Pensamento crítico",
+        "Adaptabilidade",
+        "Liderança",
+        "Resiliência",
+        "Inteligência emocional",
+        "Responsabilidade",
+        "Empatia",
+        "Criatividade",
+        "Gestão de tempo"
+      ]
+    }
   },
-  "softSkills": {
-    "title": "Soft Skills",
-    "skills": [
-      "Trabalho em equipe",
-      "Comunicação",
-      "Solução de problemas",
-      "Proatividade",
-      "Pensamento crítico",
-      "Adaptabilidade",
-      "Liderança",
-      "Resiliência",
-      "Inteligência emocional",
-      "Responsabilidade",
-      "Empatia",
-      "Criatividade",
-      "Gestão de tempo"
-    ]
-  },
-  "xp": {
+  "experience": {
     "title": "Experiência Profissional",
     "jobs": [
       {
-        "job": "Desenv. Frontend",
+        "job": "Desenvolvedor Frontend",
         "company": "Freelance",
         "location": "Remoto",
         "date": "Desde 2019",
         "description": "Desenvolvimento de sites e aplicativos web, otimizando a experiência do usuário."
       },
       {
-        "job": "Desenv. Fullstack",
+        "job": "Desenvolvedor FullStack",
         "company": "Rede Autoestima-se",
         "location": "Remoto (Brasil)",
-        "date": "nov/2024 - abril/2025",
-        "description": "Desenvolvi e implementei o site da rede Autoestima-se, criando uma plataforma funcional e acessível para os usuários. Ainda, fui responsável pela manutenção contínua do site, realizando atualizações, correções e melhorias de desenvolvimento para garantir uma experiência otimizada para os visitantes."
+        "date": "nov/2024 - abr/2025",
+        "description": "Desenvolvi e implementei o site da rede Autoestima-se, criando uma plataforma funcional e acessível para os usuários. Também fui responsável pela manutenção contínua do site, realizando atualizações, correções e melhorias para garantir uma experiência otimizada."
       },
       {
         "job": "Extensionista",
@@ -90,9 +92,9 @@
       }
     ]
   },
-  "academic": {
+  "education": {
     "title": "Formação Acadêmica",
-    "school": [
+    "degrees": [
       {
         "course": "Graduando",
         "institution": "Faculdade Estácio de Belém",

@@ -1,21 +1,20 @@
 import styles from "./styles.module.scss";
 
-type SkillsProps = {
+export default function Skills({
+  title,
+  skills,
+}: {
   title: string;
-  Skills: string[];
-};
-
-const Skills: React.FC<SkillsProps> = ({ Skills, title }) => {
+  skills: string[];
+}) {
   return (
     <div>
       <h2 className="sectionTitle">{title}</h2>
       <ul className={styles.skills}>
-        {Skills.map((skills) => (
-          <li key={skills}>&nbsp;{skills} |</li>
+        {skills.map((skill) => (
+          <li key={skill}>&nbsp;{skill} |</li>
         ))}
       </ul>
     </div>
   );
-};
-
-export default Skills;
+}

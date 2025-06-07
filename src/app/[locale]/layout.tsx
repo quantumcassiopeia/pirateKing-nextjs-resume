@@ -34,8 +34,10 @@ export default async function RootLayout({
   return (
     <html lang={locale}>
       <NextIntlClientProvider>
-        <Header />
-        <body className={duruSans.className}>{children}</body>
+        <body className={duruSans.className}>
+          <Header />
+          {children}
+        </body>
       </NextIntlClientProvider>
     </html>
   );

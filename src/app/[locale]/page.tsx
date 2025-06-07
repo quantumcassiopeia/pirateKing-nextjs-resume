@@ -1,33 +1,22 @@
-"use client";
-
 import styles from "./page.module.scss";
-
-import { useState } from "react";
-
-import Education from "@/components/Education/Education";
+import { useTranslations } from "next-intl";
 import Skills from "@/components/Skills/Skills";
 import XP from "@/components/XP/XP";
 
-import * as messagesEn from "@/messages/en";
-import * as messagesPt from "@/messages/pt";
-
-//
-
 export default function Home() {
-  const [lang, setLang] = useState(messagesEn);
-  function toggleLang() {
-    setLang(lang === messagesEn ? messagesPt : messagesEn);
-  }
-
+  const skills = useTranslations("skills");
+  const xp = useTranslations("experience");
   return (
     <div className={styles.page}>
-      <Skills title={lang.hardSkills.title} Skills={lang.hardSkills.skills} />
-      <Skills title={lang.softSkills.title} Skills={lang.softSkills.skills} />
-      <XP title={lang.xp.title} jobs={lang.xp.jobs} />
-      <Education title={lang.academic.title} education={lang.academic.school} />
-      <button className={styles.toggleLang} onClick={toggleLang}>
-        pt/en
-      </button>
+      <Skills
+        title={skills("hardSkills.title")}
+        skills={skills.raw("hardSkills.items")}
+      />
+      <Skills
+        title={skills("softSkills.title")}
+        skills={skills.raw("softSkills.items")}
+      />
+      <XP title={xp("title")} jobs={xp.raw("jobs")} />
     </div>
   );
 }

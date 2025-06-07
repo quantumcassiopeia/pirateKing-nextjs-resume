@@ -1,35 +1,34 @@
 import styles from "./styles.module.scss";
 
-type Job = {
-  job: string;
-  company: string;
-  location: string;
-  date: string;
-  description: string;
-};
-
-type XPProps = {
+export default function XP({
+  title,
+  jobs,
+}: {
   title: string;
-  jobs: Job[];
-};
-
-const XP: React.FC<XPProps> = ({ title, jobs }) => {
+  jobs: {
+    job: string;
+    company: string;
+    location: string;
+    date: string;
+    description: string;
+  }[];
+}) {
   return (
     <div>
-      <h2 className="sectionTitle">{title}</h2>
-      {jobs.map((job, index) => (
-        <div className={styles.job} key={index}>
-          <div className={styles.jobHeader}>
-            <h3>{job.job}</h3>
-            <p className={styles.company}>{job.company}</p>
-            <p className={styles.location}>{job.location}</p>
-            <p className={styles.date}>{job.date}</p>
-          </div>
-          <p className={styles.description}>• {job.description}</p>
-        </div>
-      ))}
+      <h1 className="sectionTitle">{title}</h1>
+      <ul>
+        {jobs.map((job, index) => (
+          <li key={index}>
+            <div className={styles.jobHeader}>
+              <h2 className={styles.title}>{job.job}</h2>
+              <p className={styles.company}>{job.company}</p>
+              <p className={styles.location}>{job.location}</p>
+              <p>{job.date}</p>
+            </div>
+            <p className={styles.description}>• {job.description}</p>
+          </li>
+        ))}
+      </ul>
     </div>
   );
-};
-
-export default XP;
+}
