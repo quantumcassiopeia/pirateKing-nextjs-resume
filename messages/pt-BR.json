@@ -2,7 +2,9 @@
   "header": {
     "name": "Robert Souza",
     "job": "Desenvolvedor Full-stack",
-    "city": "Rio de Janeiro, Brasil"
+    "city": "Rio de Janeiro, Brasil",
+    "portfolioTitle": "Portfólio",
+    "portfolioLink": "Quantum Soluções"
   },
   "skills": {
     "hardSkills": {

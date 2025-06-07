@@ -1,31 +1,30 @@
-import React from "react";
 import styles from "./styles.module.scss";
 
-type Academic = {
-  course: string;
-  institution: string;
-  location: string;
-  date: string;
-};
-type EducationProps = {
+export default function Education({
+  title,
+  degrees,
+}: {
   title: string;
-  education: Academic[];
-};
-
-const Education: React.FC<EducationProps> = ({ title, education }) => {
+  degrees: {
+    course: string;
+    institution: string;
+    location: string;
+    date: string;
+  }[];
+}) {
   return (
     <div>
-      <h3 className="sectionTitle">{title}</h3>
-      {education.map((academics, index) => (
-        <div className={styles.educationWrapper} key={index}>
-          <p>{academics.course}</p>
-          <p className={styles.institution}>{academics.institution}</p>
-          <p className={styles.location}>{academics.location}</p>
-          <p className={styles.date}>{academics.date}</p>
-        </div>
-      ))}
+      <h1 className="sectionTitle">{title}</h1>
+      <ul>
+        {degrees.map((degree, index) => (
+          <li key={index} className={styles.educationWrapper}>
+            <p>{degree.course}</p>
+            <p>{degree.institution}</p>
+            <p>{degree.location}</p>
+            <p className={styles.date}>{degree.date}</p>
+          </li>
+        ))}
+      </ul>
     </div>
   );
-};
-
-export default Education;
+}

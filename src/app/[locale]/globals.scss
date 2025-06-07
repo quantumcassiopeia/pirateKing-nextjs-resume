@@ -64,3 +64,9 @@ li {
     background-color: white;
   }
 }
+
+@media print {
+  body {
+    border: none;
+  }
+}

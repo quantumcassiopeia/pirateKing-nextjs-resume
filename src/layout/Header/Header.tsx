@@ -12,6 +12,17 @@ export default function Header() {
       <h1>{t("name")}</h1>
       <h3>{t("job")}</h3>
       <h3>{t("city")}</h3>
+      <a
+        className={styles.portfolio}
+        href="https://quantum-portfolio-alpha.vercel.app/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        {t("portfolioTitle")}{" "}
+        <span style={{ textDecoration: "underline" }}>
+          {t("portfolioLink")}
+        </span>
+      </a>
       <div>
         <ul className={styles.contactWrapper}>
           {contact.map((item) => (
