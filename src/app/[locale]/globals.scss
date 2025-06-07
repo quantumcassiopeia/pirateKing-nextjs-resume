@@ -50,6 +50,14 @@ li {
   list-style: none;
 }
 
+button {
+  font-family: var(--font-duru-sans);
+  color: #ededed;
+  font-weight: 600;
+
+  cursor: pointer;
+}
+
 .sectionTitle {
   display: flex;
   align-items: flex-end;

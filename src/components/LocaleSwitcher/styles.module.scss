@@ -1,0 +1,45 @@
+.container {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  top: 2rem;
+  right: 2rem;
+}
+
+.icon:hover,
+.button:hover {
+  transform: scale(1.05);
+  transition: all 0.3s ease-out;
+  cursor: pointer;
+}
+
+.icon:hover ~ .options,
+.options:hover {
+  display: block;
+}
+
+.options {
+  display: none;
+  background-color: #ededed17;
+}
+
+.button {
+  display: block;
+  width: 100%;
+  padding: 0.3rem;
+  border: none;
+  background-color: transparent;
+  font-weight: 200;
+  text-align: end;
+}
+
+.active {
+  font-weight: bold;
+}
+
+@media print {
+  .container {
+    display: none;
+  }
+}

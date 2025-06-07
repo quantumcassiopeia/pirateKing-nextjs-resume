@@ -1,10 +1,10 @@
 # Pirate King Resume
 
-🚧 Project under development 🚧
+⚠️ **This site is intended for desktop access only. Some features may not work properly on mobile devices.**
 
 This project is a resume page inspired by the Pirate King, built with Next.js, TypeScript, and Sass.
 
-[Resume Preview](https://quantumcassiopeia.github.io/pirateKing-nextjs-resume/)
+[Resume Preview](https://pirate-king-nextjs-resume.vercel.app/)
 
 ## 🚀 Technologies Used
 
