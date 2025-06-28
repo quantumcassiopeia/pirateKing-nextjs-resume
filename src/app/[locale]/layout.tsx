@@ -7,6 +7,7 @@ import { Duru_Sans } from "next/font/google";
 import "./globals.scss";
 import Header from "@/layout/Header/Header";
 import LocaleSwitcher from "@/components/LocaleSwitcher/LocaleSwitcher";
+import ModalMobile from "@/components/ModalMobile/ModalMobile";
 
 const duruSans = Duru_Sans({
   subsets: ["latin"],
@@ -40,6 +41,7 @@ export default async function RootLayout({
           <LocaleSwitcher />
           <Header />
           {children}
+          <ModalMobile />
         </body>
       </NextIntlClientProvider>
     </html>

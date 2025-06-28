@@ -134,5 +134,8 @@
         "date": "2024"
       }
     ]
+  },
+  "ModalMobile": {
+    "description": "Está página não é otimizada para dispositivos móveis. Acesse via computador ou outro dispositivo compatível."
   }
 }
