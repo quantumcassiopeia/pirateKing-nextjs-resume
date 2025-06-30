@@ -14,7 +14,7 @@ export default function Header() {
       <h3>{t("city")}</h3>
       <a
         className={styles.portfolio}
-        href="https://quantum-portfolio-alpha.vercel.app/"
+        href="https://qcsolutions.tech"
         target="_blank"
         rel="noopener noreferrer"
       >
