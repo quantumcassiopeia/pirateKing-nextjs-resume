@@ -11,7 +11,6 @@ export default function Header() {
     <header className={styles.headerWrapper}>
       <h1>{t("name")}</h1>
       <h3>{t("job")}</h3>
-      <h3>{t("city")}</h3>
       <a
         className={styles.portfolio}
         href="https://qcsolutions.tech"

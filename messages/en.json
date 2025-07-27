@@ -1,8 +1,7 @@
 {
   "header": {
     "name": "Robert Souza",
-    "job": "Full-stack Developer",
-    "city": "Rio de Janeiro, Brazil",
+    "job": " Senior Full-stack Developer",
     "portfolioTitle": "Portfolio",
     "portfolioLink": "qcsolutions.tech/"
   },
@@ -14,26 +13,24 @@
         "React",
         "Next.js",
         "Node.js",
+        "Nest.js",
         "Django",
+        "PostgreSQL",
         "Graph API",
+        "REST API",
         "Redux",
         "TypeScript",
         "JavaScript",
-        "Git",
-        "Tailwind",
-        "Sass",
-        "CSS",
-        "HTML",
-        "Database",
-        "SQL",
         "Java",
+        "C",
         "C#",
         "C++",
-        "C",
         "Python",
         "Kotlin",
         "Android Jetpack Compose",
-        "LAN"
+        "Git",
+        "Tailwind",
+        "Sass"
       ]
     },
     "softSkills": {
@@ -59,39 +56,67 @@
     "title": "Professional Experience",
     "jobs": [
       {
-        "job": "Frontend Developer",
-        "company": "Freelance",
-        "location": "Remote",
+        "job": "Full-stack Developer",
+        "company": "Quantum Solutions",
+        "location": "Rio de Janeiro, RJ",
         "date": "Since 2019",
-        "description": "Website and web application development, optimizing user experience."
+        "description": [
+          "Developed and maintained full-stack web applications using modern frameworks",
+          "Implemented responsive user interfaces with React and styled components",
+          "Built and optimized RESTful APIs using Node.js and Express",
+          "Integrated front-end and back-end with secure authentication and data validation",
+          "Managed databases with PostgreSQL and performed schema design and optimization",
+          "Deployed applications using Docker and cloud services like AWS or Vercel",
+          "Collaborated in Agile teams, participating in code reviews and sprint planning"
+        ]
       },
       {
-        "job": "FullStack Developer",
+        "job": "Front-end Developer",
         "company": "Rede Autoestima-se",
         "location": "Remote",
-        "date": "Nov 2024 - Apr 2025",
-        "description": "Developed and implemented the Autoestima-se network website, creating a functional and accessible platform for users. Also responsible for the site's ongoing maintenance, performing updates, fixes, and performance improvements to ensure an optimized user experience."
+        "date": "11/2024 - 04/2025",
+        "description": [
+          "Developed and maintained the Autoestima-se website with a focus on functionality and accessibility.",
+          "Performed regular updates, bug fixes, and performance enhancements.",
+          "Optimized the user experience across the web platform."
+        ]
       },
       {
         "job": "Programming Tutor",
         "company": "Escola Barão Triunfo",
         "location": "Belém/PA",
-        "date": "Mar 2023 – Jul 2023",
-        "description": "Participated in a volunteer project aimed at teaching programming languages to public school students. Additionally, provided IT support, addressing computer engineering topics and promoting sustainable practices and social awareness in the educational context."
+        "date": "02/2023 – 07/2023",
+        "description": [
+          "Participated in a volunteer project teaching programming to public school students",
+          "Provided IT support and assistance on computer engineering topics",
+          "Promoted sustainable practices and social awareness in education"
+        ]
       },
       {
         "job": "Intern",
         "company": "Receita Federal do Brasil",
         "location": "Belém/PA",
         "date": "2017 - 2018",
-        "description": "Developed and maintained HTML/CSS/JavaScript pages, as well as provided support for database servers. Also performed accounting entries, assisted the public, and offered technical support to taxpayers, ensuring the effective resolution of their tax and fiscal issues."
+        "description": [
+          "Developed and maintained HTML/CSS/JavaScript pages",
+          "Provided support for database servers",
+          "Performed accounting entries",
+          "Assisted the public and offered technical support to taxpayers",
+          "Ensured effective resolution of tax and fiscal issues"
+        ]
       },
       {
         "job": "Intern",
         "company": "Ministério Público do Pará",
         "location": "Belém/PA",
-        "date": "2016 - 2017",
-        "description": "Worked on accounting guide entries and Excel spreadsheet management. Also responsible for bookkeeping, database and server system support, local network maintenance, and the application of HTML/CSS for interface development."
+        "date": "2015 - 2016",
+        "description": [
+          "Worked on accounting guide entries and Excel spreadsheet management",
+          "Handled bookkeeping tasks",
+          "Provided support for database and server systems",
+          "Maintained the local network infrastructure",
+          "Applied HTML/CSS for interface development"
+        ]
       }
     ]
   },
@@ -102,7 +127,7 @@
         "course": "B.Sc. in Computer Engineering",
         "institution": "Faculdade Estácio de Belém",
         "location": "Remote (Brazil)",
-        "date": "03/2023 – 12/2025"
+        "date": "06/2026"
       },
       {
         "course": "Python",
@@ -117,20 +142,8 @@
         "date": "2023"
       },
       {
-        "course": "Linux Essentials",
-        "institution": "Network Development Group",
-        "location": "Remote (Brazil)",
-        "date": "2024"
-      },
-      {
         "course": "Data Analysis",
         "institution": "Faculdade Estácio de Belém",
-        "location": "Remote (Brazil)",
-        "date": "2024"
-      },
-      {
-        "course": "Cloud/AWS",
-        "institution": "Ka Solution",
         "location": "Remote (Brazil)",
         "date": "2024"
       }
