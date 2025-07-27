@@ -24,6 +24,8 @@ body {
   background: #393939;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  text-underline-offset: 3px;
 }
 
 h1 {
@@ -77,4 +79,8 @@ button {
   body {
     border: none;
   }
+}
+
+@page {
+  margin: 0;
 }

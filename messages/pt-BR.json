@@ -1,8 +1,7 @@
 {
   "header": {
     "name": "Robert Souza",
-    "job": "Desenvolvedor Full-stack",
-    "city": "Rio de Janeiro, Brasil",
+    "job": "Desenvolvedor Full-stack Sênior",
     "portfolioTitle": "Portfólio",
     "portfolioLink": "qcsolutions.tech/"
   },
@@ -14,26 +13,24 @@
         "React",
         "Next.js",
         "Node.js",
+        "Nest.js",
         "Django",
+        "PostgreSQL",
         "Graph API",
+        "REST API",
         "Redux",
         "TypeScript",
         "JavaScript",
-        "Git",
-        "Tailwind",
-        "Sass",
-        "CSS",
-        "HTML",
-        "Banco de Dados",
-        "SQL",
         "Java",
+        "C",
         "C#",
         "C++",
-        "C",
         "Python",
         "Kotlin",
         "Android Jetpack Compose",
-        "Redes Locais (LAN)"
+        "Git",
+        "Tailwind",
+        "Sass"
       ]
     },
     "softSkills": {
@@ -41,7 +38,7 @@
       "items": [
         "Trabalho em equipe",
         "Comunicação",
-        "Solução de problemas",
+        "Resolução de problemas",
         "Proatividade",
         "Pensamento crítico",
         "Adaptabilidade",
@@ -51,7 +48,7 @@
         "Responsabilidade",
         "Empatia",
         "Criatividade",
-        "Gestão de tempo"
+        "Gestão do tempo"
       ]
     }
   },
@@ -59,39 +56,66 @@
     "title": "Experiência Profissional",
     "jobs": [
       {
-        "job": "Desenvolvedor Frontend",
-        "company": "Freelance",
-        "location": "Remoto",
+        "job": "Desenvolvedor Full-stack",
+        "company": "Quantum Solutions",
+        "location": "Rio de Janeiro, RJ",
         "date": "Desde 2019",
-        "description": "Desenvolvimento de sites e aplicativos web, otimizando a experiência do usuário."
+        "description": [
+          "Desenvolvimento e manutenção de aplicações web full-stack com frameworks modernos",
+          "Implementação de interfaces responsivas com React e styled-components",
+          "Criação e otimização de APIs RESTful com Node.js e Express",
+          "Integração do front-end e back-end com autenticação segura e validação de dados",
+          "Gerenciamento de bancos de dados PostgreSQL com modelagem e otimização de esquemas",
+          "Deploy de aplicações com Docker e serviços em nuvem como AWS ou Vercel"
+        ]
       },
       {
-        "job": "Desenvolvedor FullStack",
+        "job": "Desenvolvedor Front-end",
         "company": "Rede Autoestima-se",
-        "location": "Remoto (Brasil)",
-        "date": "nov/2024 - abr/2025",
-        "description": "Desenvolvi e implementei o site da rede Autoestima-se, criando uma plataforma funcional e acessível para os usuários. Também fui responsável pela manutenção contínua do site, realizando atualizações, correções e melhorias para garantir uma experiência otimizada."
+        "location": "Remoto",
+        "date": "11/2024 - 04/2025",
+        "description": [
+          "Desenvolvimento e manutenção do site da Autoestima-se com foco em funcionalidade e acessibilidade",
+          "Realização de atualizações, correções de bugs e melhorias de desempenho",
+          "Otimização da experiência do usuário na plataforma web"
+        ]
       },
       {
-        "job": "Extensionista",
+        "job": "Tutor de Programação",
         "company": "Escola Barão Triunfo",
         "location": "Belém/PA",
-        "date": "mar/2023 – jul/2023",
-        "description": "Participei de um projeto voluntário com o objetivo de ensinar linguagens de programação a estudantes de escolas públicas. Além disso, prestei suporte em TI, abordando temas de engenharia da computação e promovendo práticas sustentáveis e de consciência social no contexto educacional."
+        "date": "02/2023 – 07/2023",
+        "description": [
+          "Participação em projeto voluntário ensinando programação para alunos de escolas públicas",
+          "Suporte técnico e orientação sobre tópicos de engenharia da computação",
+          "Promoção de práticas sustentáveis e conscientização social no contexto educacional"
+        ]
       },
       {
         "job": "Estagiário",
         "company": "Receita Federal do Brasil",
         "location": "Belém/PA",
         "date": "2017 - 2018",
-        "description": "Desenvolvi e mantive páginas em HTML/CSS/JavaScript, além de fornecer suporte a servidores de banco de dados. Também executei lançamentos contábeis, atendi ao público e ofereci suporte técnico a contribuintes, garantindo a resolução eficaz de suas questões fiscais e tributárias."
+        "description": [
+          "Desenvolvimento e manutenção de páginas HTML/CSS/JavaScript",
+          "Suporte a servidores de banco de dados",
+          "Lançamentos contábeis",
+          "Atendimento ao público e suporte técnico a contribuintes",
+          "Resolução eficaz de questões fiscais e tributárias"
+        ]
       },
       {
         "job": "Estagiário",
         "company": "Ministério Público do Pará",
         "location": "Belém/PA",
-        "date": "2016 - 2017",
-        "description": "Atuei no lançamento de guias contábeis e no gerenciamento de planilhas Excel. Também fui responsável pela escrituração de livros contábeis, suporte em sistemas de banco de dados e servidores, além de atuar na manutenção de redes locais e na aplicação de HTML/CSS para o desenvolvimento de interfaces."
+        "date": "2015 - 2016",
+        "description": [
+          "Lançamentos contábeis e gerenciamento de planilhas em Excel",
+          "Execução de tarefas de escrituração contábil",
+          "Suporte a banco de dados e sistemas de servidores",
+          "Manutenção da infraestrutura de rede local",
+          "Desenvolvimento de interfaces com HTML/CSS"
+        ]
       }
     ]
   },
@@ -99,10 +123,10 @@
     "title": "Formação Acadêmica",
     "degrees": [
       {
-        "course": "Graduando",
+        "course": "B.Eng. da Computação",
         "institution": "Faculdade Estácio de Belém",
         "location": "Remoto (Brasil)",
-        "date": "03/2023 – 12/2025"
+        "date": "06/2026"
       },
       {
         "course": "Python",
@@ -111,26 +135,14 @@
         "date": "2023"
       },
       {
-        "course": "Endpoint Security",
+        "course": "Segurança de Endpoint",
         "institution": "Cisco Networking Academy",
         "location": "Remoto (Brasil)",
         "date": "2023"
       },
       {
-        "course": "Linux Essentials",
-        "institution": "Network Development Group",
-        "location": "Remoto (Brasil)",
-        "date": "2024"
-      },
-      {
         "course": "Análise de Dados",
         "institution": "Faculdade Estácio de Belém",
-        "location": "Remoto (Brasil)",
-        "date": "2024"
-      },
-      {
-        "course": "Nuvem/AWS",
-        "institution": "Ka Solution",
         "location": "Remoto (Brasil)",
         "date": "2024"
       }

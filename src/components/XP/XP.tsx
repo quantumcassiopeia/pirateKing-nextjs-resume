@@ -10,7 +10,7 @@ export default function XP({
     company: string;
     location: string;
     date: string;
-    description: string;
+    description: string[];
   }[];
 }) {
   return (
@@ -18,14 +18,18 @@ export default function XP({
       <h1 className="sectionTitle">{title}</h1>
       <ul>
         {jobs.map((job, index) => (
-          <li key={index}>
+          <li key={index} className={styles.jobList}>
             <div className={styles.jobHeader}>
               <h2 className={styles.title}>{job.job}</h2>
               <p className={styles.company}>{job.company}</p>
               <p className={styles.location}>{job.location}</p>
-              <p>{job.date}</p>
+              <p className={styles.date}>{job.date}</p>
             </div>
-            <p className={styles.description}>• {job.description}</p>
+            <ul>
+              {job.description.map((description, index) => (
+                <li key={index}>• {description}</li>
+              ))}
+            </ul>
           </li>
         ))}
       </ul>

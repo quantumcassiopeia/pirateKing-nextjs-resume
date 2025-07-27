@@ -1,7 +1,10 @@
+.jobList:not(:last-child) {
+  padding-bottom: 2rem;
+}
+
 .jobHeader {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1.8fr 2fr 1fr 1.2fr;
   padding-bottom: 0.5rem;
 
   .title {
@@ -11,13 +14,13 @@
 
   .company {
     text-decoration: underline;
+    text-align: center;
   }
 
   .location {
     font-style: italic;
   }
-}
-
-.description {
-  padding-bottom: 1rem;
+  .date {
+    text-align: right;
+  }
 }
