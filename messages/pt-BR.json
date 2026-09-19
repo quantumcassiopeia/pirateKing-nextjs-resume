@@ -1,7 +1,7 @@
 {
   "header": {
     "name": "Robert Souza",
-    "job": "Desenvolvedor Full-stack Sênior",
+    "job": "Engenheiro da Computação | Desenvolvedor Full-stack Sênior",
     "portfolioTitle": "Portfólio",
     "portfolioLink": "qcsolutions.tech/"
   },
@@ -9,7 +9,7 @@
     "hardSkills": {
       "title": "Hard Skills",
       "items": [
-        "9 anos de experiência",
+        "10 anos de experiência",
         "React",
         "Next.js",
         "Node.js",
@@ -18,9 +18,7 @@
         "PostgreSQL",
         "Graph API",
         "REST API",
-        "Redux",
         "TypeScript",
-        "JavaScript",
         "Java",
         "C",
         "C#",
@@ -28,9 +26,9 @@
         "Python",
         "Kotlin",
         "Android Jetpack Compose",
-        "Git",
         "Tailwind",
-        "Sass"
+        "Sass",
+        "CLM DocuSign"
       ]
     },
     "softSkills": {
@@ -56,6 +54,20 @@
     "title": "Experiência Profissional",
     "jobs": [
       {
+        "job": "Consultor - Contract Lifecycle Management (CLM)",
+        "company": "Triscal",
+        "location": "Rio de Janeiro, RJ",
+        "date": "Desde 2025",
+        "description": [
+          "Implementação e configuração de soluções de Contract Lifecycle Management (CLM) para clientes corporativos",
+          "Análise e mapeamento de processos de gestão de contratos para melhorar eficiência e conformidade",
+          "Customização de fluxos de trabalho, modelos e processos de aprovação em plataformas de CLM",
+          "Integração de sistemas de CLM com ferramentas corporativas como ERP e CRM",
+          "Suporte técnico e funcional durante implantações de sistemas CLM",
+          "Realização de testes, documentação e treinamento de usuários para implementações de CLM"
+        ]
+      },
+      {
         "job": "Desenvolvedor Full-stack",
         "company": "Quantum Solutions",
         "location": "Rio de Janeiro, RJ",
@@ -66,7 +78,8 @@
           "Criação e otimização de APIs RESTful com Node.js e Express",
           "Integração do front-end e back-end com autenticação segura e validação de dados",
           "Gerenciamento de bancos de dados PostgreSQL com modelagem e otimização de esquemas",
-          "Deploy de aplicações com Docker e serviços em nuvem como AWS ou Vercel"
+          "Deploy de aplicações com Docker e serviços em nuvem como AWS ou Vercel",
+          "Colaboração em equipes Ágeis, participando de revisões de código e planejamento de sprints"
         ]
       },
       {
@@ -75,9 +88,9 @@
         "location": "Remoto",
         "date": "11/2024 - 04/2025",
         "description": [
-          "Desenvolvimento e manutenção do site da Autoestima-se com foco em funcionalidade e acessibilidade",
-          "Realização de atualizações, correções de bugs e melhorias de desempenho",
-          "Otimização da experiência do usuário na plataforma web"
+          "Desenvolvimento e manutenção do site da Autoestima-se com foco em funcionalidade e acessibilidade.",
+          "Realização de atualizações regulares, correções de bugs e melhorias de desempenho.",
+          "Otimização da experiência do usuário na plataforma web."
         ]
       },
       {
@@ -87,8 +100,8 @@
         "date": "02/2023 – 07/2023",
         "description": [
           "Participação em projeto voluntário ensinando programação para alunos de escolas públicas",
-          "Suporte técnico e orientação sobre tópicos de engenharia da computação",
-          "Promoção de práticas sustentáveis e conscientização social no contexto educacional"
+          "Suporte técnico em TI e assistência em tópicos de engenharia da computação",
+          "Promoção de práticas sustentáveis e conscientização social na educação"
         ]
       },
       {
@@ -99,7 +112,7 @@
         "description": [
           "Desenvolvimento e manutenção de páginas HTML/CSS/JavaScript",
           "Suporte a servidores de banco de dados",
-          "Atendimento ao público e suporte técnico a contribuintes"
+          "Realização de lançamentos contábeis"
         ]
       },
       {
@@ -110,7 +123,7 @@
         "description": [
           "Suporte a banco de dados e sistemas de servidores",
           "Manutenção da infraestrutura de rede local",
-          "Desenvolvimento de interfaces com HTML/CSS"
+          "Aplicação de HTML/CSS para desenvolvimento de interfaces"
         ]
       }
     ]
@@ -119,10 +132,28 @@
     "title": "Formação Acadêmica",
     "degrees": [
       {
-        "course": "B.Eng. da Computação",
-        "institution": "Universidade Estácio de Sá",
-        "location": "Rio de Janeiro/RJ",
-        "date": "06/2026"
+        "course": "Engenharia da Computação",
+        "institution": "Unesa",
+        "location": "Rio de Janeiro",
+        "date": "2025"
+      },
+      {
+        "course": "IAM Implementation Consultant",
+        "institution": "DocuSign University",
+        "location": "Remoto (Brasil)",
+        "date": "2026"
+      },
+      {
+        "course": "Docusign CLM Workflow Developer",
+        "institution": "DocuSign University",
+        "location": "Remoto (Brasil)",
+        "date": "2025"
+      },
+      {
+        "course": "Docusign CLM Administrator",
+        "institution": "DocuSign University",
+        "location": "Remoto (Brasil)",
+        "date": "2025"
       },
       {
         "course": "Python",
@@ -139,12 +170,12 @@
       {
         "course": "Análise de Dados",
         "institution": "Faculdade Estácio de Belém",
-        "location": "Belém/PA",
+        "location": "Belém, Brasil",
         "date": "2024"
       }
     ]
   },
   "ModalMobile": {
-    "description": "Está página não é otimizada para dispositivos móveis. Acesse via computador ou outro dispositivo compatível."
+    "description": "Esta página não é otimizada para dispositivos móveis. Acesse via um computador ou dispositivo compatível."
   }
 }
