@@ -4,6 +4,12 @@ import Skills from "@/components/Skills/Skills";
 import XP from "@/components/XP/XP";
 import Education from "@/components/Education/Education";
 
+export const instant = false;
+
+export function generateStaticParams() {
+  return [{ locale: "en" }, { locale: "pt" }];
+}
+
 export default function Home() {
   const skills = useTranslations("skills");
   const xp = useTranslations("experience");
