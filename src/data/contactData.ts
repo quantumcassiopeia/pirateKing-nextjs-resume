@@ -20,11 +20,6 @@ export const contactData: Contact[] = [
     href: "mailto:quantumpeia.dev@gmail.com",
     icon: "/icons/E-mail.svg",
   },
-  {
-    label: "+55 91 98410-7575",
-    href: "https://wa.me/5591984107575",
-    icon: "/icons/WhatsApp.svg",
-  },
 ];
 
 export default contactData;

@@ -1,7 +1,7 @@
 {
   "header": {
     "name": "Robert Souza",
-    "job": " Senior Full-stack Developer",
+    "job": "Computer Engineer | Senior Full-stack Developer",
     "portfolioTitle": "Portfolio",
     "portfolioLink": "qcsolutions.tech/"
   },
@@ -9,7 +9,7 @@
     "hardSkills": {
       "title": "Hard Skills",
       "items": [
-        "9 years of experience",
+        "10 years of experience",
         "React",
         "Next.js",
         "Node.js",
@@ -18,9 +18,7 @@
         "PostgreSQL",
         "Graph API",
         "REST API",
-        "Redux",
         "TypeScript",
-        "JavaScript",
         "Java",
         "C",
         "C#",
@@ -28,9 +26,9 @@
         "Python",
         "Kotlin",
         "Android Jetpack Compose",
-        "Git",
         "Tailwind",
-        "Sass"
+        "Sass",
+        "CLM DocuSign"
       ]
     },
     "softSkills": {
@@ -55,6 +53,20 @@
   "experience": {
     "title": "Professional Experience",
     "jobs": [
+      {
+        "job": "Consultant - Contract Lifecycle Management (CLM)",
+        "company": "Triscal",
+        "location": "Rio de Janeiro, RJ",
+        "date": "Since 2025",
+        "description": [
+          "Implemented and configured Contract Lifecycle Management (CLM) solutions for enterprise clients",
+          "Analyzed and mapped contract management processes to improve efficiency and compliance",
+          "Customized workflows, templates, and approval processes within CLM platforms",
+          "Integrated CLM systems with enterprise tools such as ERP and CRM platforms",
+          "Provided technical and functional support during CLM system deployments",
+          "Conducted testing, documentation, and user training for CLM implementations"
+        ]
+      },
       {
         "job": "Full-stack Developer",
         "company": "Quantum Solutions",
@@ -121,9 +133,27 @@
     "degrees": [
       {
         "course": "B.Sc. in Computer Engineering",
-        "institution": "Universidade Estácio de Sá",
+        "institution": "Unesa",
         "location": "Rio de Janeiro",
-        "date": "06/2026"
+        "date": "2025"
+      },
+      {
+        "course": "IAM Implementation Consultant",
+        "institution": "DocuSign University",
+        "location": "Remote (Brazil)",
+        "date": "2026"
+      },
+      {
+        "course": "Docusign CLM Workflow Developer",
+        "institution": "DocuSign University",
+        "location": "Remote (Brazil)",
+        "date": "2025"
+      },
+      {
+        "course": "Docusign CLM Administrator",
+        "institution": "DocuSign University",
+        "location": "Remote (Brazil)",
+        "date": "2025"
       },
       {
         "course": "Python",
