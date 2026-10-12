@@ -73,13 +73,12 @@
         "location": "Rio de Janeiro, RJ",
         "date": "Desde 2019",
         "description": [
-          "Desenvolvimento e manutenção de aplicações web full-stack com frameworks modernos",
-          "Implementação de interfaces responsivas com React e styled-components",
-          "Criação e otimização de APIs RESTful com Node.js e Express",
-          "Integração do front-end e back-end com autenticação segura e validação de dados",
-          "Gerenciamento de bancos de dados PostgreSQL com modelagem e otimização de esquemas",
-          "Deploy de aplicações com Docker e serviços em nuvem como AWS ou Vercel",
-          "Colaboração em equipes Ágeis, participando de revisões de código e planejamento de sprints"
+          "Arquitetura e implementação de soluções DocuSign CLM para grandes clientes, como ALLOS, B3, Raízen, Estratégia Concursos e SulAmérica.",
+          "Desenvolvimento de fluxos de trabalho complexos, utilizando scripts customizados em C# para manipulação de atributos XML, XPath e roteamento condicional.",
+          "Integração de sistemas de CLM com ferramentas corporativas (ERP/CRM) via APIs REST e Webhooks.",
+          "Customização avançada de formulários HTML para controle de SLAs em tarefas de fluxo e automação de processos como Upload de Minuta Externa.",
+          "Elaboração de artefatos técnicos, como Business Requirements Documents (BRD), e diagramação de soluções.",
+          "Garantia de qualidade, suporte técnico e aplicação de melhores práticas alinhadas às certificações DocuSign."
         ]
       },
       {

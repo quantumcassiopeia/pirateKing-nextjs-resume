@@ -59,12 +59,12 @@
         "location": "Rio de Janeiro, RJ",
         "date": "Since 2025",
         "description": [
-          "Implemented and configured Contract Lifecycle Management (CLM) solutions for enterprise clients",
-          "Analyzed and mapped contract management processes to improve efficiency and compliance",
-          "Customized workflows, templates, and approval processes within CLM platforms",
-          "Integrated CLM systems with enterprise tools such as ERP and CRM platforms",
-          "Provided technical and functional support during CLM system deployments",
-          "Conducted testing, documentation, and user training for CLM implementations"
+          "Architecture and implementation of DocuSign CLM solutions for major clients, such as ALLOS, B3, Raízen, Estratégia Concursos, and SulAmérica.",
+          "Development of complex workflows using custom C# scripts for XML attribute manipulation, XPath, and conditional routing.",
+          "Integration of CLM systems with enterprise tools (ERP/CRM) via REST APIs and Webhooks.",
+          "Advanced customization of HTML forms for SLA control in workflow tasks and process automation, such as External Document Upload.",
+          "Creation of technical artifacts, such as Business Requirements Documents (BRD), and solution diagramming.",
+          "Quality assurance, technical support, and application of best practices aligned with DocuSign certifications."
         ]
       },
       {
