@@ -2,7 +2,6 @@
 
 import styles from "./styles.module.scss";
 
-import { Locale } from "next-intl";
 import { useParams } from "next/navigation";
 import { usePathname, useRouter } from "@/i18n/navigation";
 import TranslateIcon from "@mui/icons-material/Translate";
@@ -12,18 +11,8 @@ export default function LocaleSwitcher() {
   const pathname = usePathname();
   const params = useParams();
 
-  const handleLocaleChange = (locale: Locale) => {
-    const restParams = { ...params };
-    delete restParams.locale;
-    router.replace(
-      {
-        pathname,
-        query: restParams,
-      },
-      {
-        locale,
-      }
-    );
+  const handleLocaleChange = (locale: string) => {
+    router.replace(pathname, { locale });
   };
 
   return (
